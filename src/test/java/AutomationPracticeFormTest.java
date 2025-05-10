@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class AutomationPracticeForm {
+public class AutomationPracticeFormTest {
 
     @BeforeAll
      static void setUpBeforeAllTest() {
@@ -16,7 +16,7 @@ public class AutomationPracticeForm {
     }
 
     @Test
-    void fillForm() {
+    void fillFormTest() {
         open("/automation-practice-form");
 
         executeJavaScript("$('#fixedban').remove()");
